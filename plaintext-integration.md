@@ -67,14 +67,14 @@ Spesifikasi ini merincikan API yang memungkinkan pengguna untuk menjalankan bisn
 
 ## Balance
 
-- **_Request Balance**
+- **_Request Balance**_
     
     ``` http
     GET /balance?memberID={memberID}&pin={pin}&password={password}
     
      ```
     
-- **_Response Balance**
+- **_Response Balance**_
     
     ``` http
     HTTP/1.1 200 OK
@@ -90,14 +90,14 @@ Spesifikasi ini merincikan API yang memungkinkan pengguna untuk menjalankan bisn
 
 ## Ticket
 
-- **_Request Ticket**
+- **_Request Ticket**_
     
     ``` http
     GET /?cmd=ticket&amount=100000&memberID={memberID}&pin={pin}&password={password}
     
      ```
     
-- **_Response Ticket**
+- **_Response Ticket**_
     
     ``` http
     HTTP/1.1 200 OK
